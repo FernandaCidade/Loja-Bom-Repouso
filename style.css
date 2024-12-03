@@ -1,3 +1,5 @@
+
+/* Configurações Gerais */
 *{
     padding: 0;
     margin: 0;
@@ -8,52 +10,139 @@ body{
     display: flex;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
 }
-
-header{ 
+/* Configurações do header */
+header{
     display: flex;
-    flex-direction: row;  
+    flex-direction: row;
     justify-content: space-between;
     padding: 20px;
+    background-color: #B39A87; /*Cor tabaco claro*/
 }
-
+/* Configurando a logo do header */
 .logo-menu{
     display: flex;
     align-items: center;
 }
+
 header h1{
-    padding-left: 50px;
-    
+    padding-left: 25px;
 }
-
+/* Espaço entre usuario e carrinho de compras */
 #carrinho-compras{
-
-    padding-left: 50px;
-    
+    padding-left: 25px;
 }
 
 .menu{
+    padding: 15px;
     width: 18%;
-   
-
-   
 }
-.menu ul li {
-    margin: 0; padding: 0px;
+
+.menu a{
+    color: black;
+}
+
+.menu ul li{
+   
+    margin: 0;
+    padding: 0;
     text-align: left;
     list-style-type: none;
+    font-size:20px;
+  
 }
-.menu a:link {
-    background: #F5F5F5;
-    color: #666;
-    font-weight: bold;
+
+.menu a:link{
+
     text-decoration: none;
     padding: 8px;
-    display: block;
 }
-.menu a:hover {
-    background: #E5F0FF;
-    color: #039;
+.img-cadeiras{
+    display: flex;
+   flex-direction: row-reverse;
+
 }
 
 
+
+.img-legenda{
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+    align-items: center;
+    text-align: center;
+
+}
+.img-legenda img {
+    width: 60%;
+}
+
+.img-legenda p{
+    font-size: 20Px;
+    margin-top: 10%;
+}
+
+/* Para tirar o azul dos links */
+
+.principal img {
+    width: 50%;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.icones a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/*Configuração do footer*/
+
+footer{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:  #B39A87;
+    padding: 25px;
+}
+
+/*Configuração do logo no Footer*/
+
+footer .logo{
+    display: flex;
+    align-items: center;
+}
+
+/*Configuração das informações*/
+footer .info p i{
+    padding: 5px;
+}
+
+/*Configuração das redes sociais*/
+
+footer .redes p i{
+    padding: 5px;
+}
+
+/* Configurações da pagna sobre a empresa */
+
+.sobreNos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid black;
+    margin: 5%;
+    background-color: #B39A87;
+    width: 50%;
+   align-self: center; /*Para alinhar o bloco ao centro do site*/
+}
+
+.sobreNos p{
+    padding: 10px;
+}

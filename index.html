@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/9f6c589556.js" crossorigin="anonymous"></script>
 
@@ -16,22 +17,60 @@
         </div>
 
         <div class="icones">
-            <i class="fa-solid fa-user fa-2x" id="usuario"></i>
-            <i class="fa-solid fa-cart-shopping fa-2x" id="carrinho-compras"></i>
+           <a href="#" class="contato"><i class="fa-solid fa-user fa-2x" id="usuario"></i></a> 
+            <a href="#" class="carrinho"><i class="fa-solid fa-cart-shopping fa-2x" id="carrinho-compras"></i></a> 
         </div>
     </header>
 
     <aside class="menu">
         <ul>
             <li><a href="#">Página Inicial</a></li> 
-            <li><a href="#">Empresa</a></li> 
+            <li><a href="empresa.html">Empresa</a></li> 
             <li><a href="#">Produtos</a></li> 
             <li><a href="#">Contato</a></li> 
      </ul>
     </aside>
-    
-    <section class="ofertas">
-        <center><img src="img/blackWeek.jpg" width="60%"></center>
-    </section>
+
+    <!-- Imagem de oferta -->
+    <!-- <section class="ofertas"> -->
+        <main class="principal">
+            <img src="img/blackWeek.jpg">
+                <!-- </section> -->
+            <!-- Imagens dos produtos que tem  -->
+                <section class="img-cadeiras">
+            
+            <div class="img-legenda">
+                <img src="img/cadeira-classica.jpg">
+                <p>Cadeira clássica</p>
+            </div>
+            <div class="img-legenda">
+                 <img src="img/cadeira-madeira.jpg" alt="">
+                 <p>Cadeira rústica</p>
+            </div>
+            <div class="img-legenda">
+                <img src="img/sofa-bege.jpg" alt="">
+                <p>Sofá Clássico</p>
+            </div>
+                </section>
+        </main>
+
+    <footer>       <!-- Rodapé  -->
+      <div class="logo"> <i class="fa-solid fa-chair fa-5x" id="logo"></i><h1>Cadeiras Bom Repouso</h1></div>       <!-- Logo  -->
+     
+      <div class="info">
+        <h2>Informações</h2>       <!-- Endereço da loja -->
+
+        <p><i class="fa fa-map-marker"> </i>Rua dos assentos, n° 123 - Cadeiras/SC</p>
+        <p><i class="fa fa-envelope"></i>vendas@bomrepouso.com.br</p>
+        <p><i class="fa fa-phone"></i>(11) 91234-5678</p>
+    </div>
+     
+    <div class="redes">       <!-- Redes Sociais da loja -->
+        <h2>Redes Sociais</h2>
+        <p><i class="fa fa-facebook"></i>Facebook</p>
+        <p><i class="fa fa-instagram"></i> Instagram</p>
+      
+    </div>
+    </footer>
 </body>
 </html>
